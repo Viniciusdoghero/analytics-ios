@@ -102,6 +102,13 @@
       }]
     },
     {
+      "name": "Outbound",
+      "dependencies": [{
+        "name": "Outbound",
+        "version": "0.1"
+      }]
+    },
+    {
       "name": "Segmentio",
       "dependencies": []
     },

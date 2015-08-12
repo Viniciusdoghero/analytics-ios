@@ -58,6 +58,10 @@
 #import "SEGOptimizelyIntegration.h"
 #endif
 
+#if defined(USE_ANALYTICS_OUTBOUND) || defined(USE_ANALYTICS_ALL)
+#import "SEGOutboundIntegration.h"
+#endif
+
 #if defined(USE_ANALYTICS_SEGMENTIO) || defined(USE_ANALYTICS_ALL)
 #import "SEGSegmentioIntegration.h"
 #endif
