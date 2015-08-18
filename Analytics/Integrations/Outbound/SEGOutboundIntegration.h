@@ -10,4 +10,6 @@
 
 @interface SEGOutboundIntegration : SEGAnalyticsIntegration
 
+@property Class outboundClass;
+
 @end
